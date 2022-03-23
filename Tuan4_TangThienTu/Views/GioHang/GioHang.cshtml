@@ -30,7 +30,7 @@
                 </td>
                 <td> @Html.DisplayFor(modelItem => item.dThanhtien) </td>
                 <td>
-                    <a href="@Url.Action("Detail", "Sach", new { @id = item.masach })"> Chitiết</a> | @Html.ActionLink(" Xóa", "XoaGiohang", new { @id = item.masach })
+                    <a href="@Url.Action("Detail", "Sach", new { @id = item.masach })"> Chi tiết</a> | @Html.ActionLink(" Xóa", "XoaGiohang", new { @id = item.masach })
                 </td>
                 <td>
                     <input type="submit" value="Cập nhật" class="btn btn-success" />
@@ -52,7 +52,7 @@
     </tr>
     <tr style="font-weight: bold; color:yellow; text-align:right">
         <td colspan="5">
-            @Html.ActionLink("Đặt hàng", "Dathang", "GioHang")
+            @Html.ActionLink("Đặt hàng", "DatHang", "GioHang")
         </td>
     </tr>
 
